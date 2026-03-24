@@ -1,0 +1,9 @@
+public int powerN(int base, int n) {
+    // Base case
+    if (n == 1) {
+        return base;
+    }
+    
+    // Recursive case
+    return base * powerN(base, n - 1);
+}
